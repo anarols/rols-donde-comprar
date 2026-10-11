@@ -440,6 +440,7 @@
   .pj-track{ display:flex; transition:transform .55s cubic-bezier(.4,0,.2,1); }
   .pj-slide{ flex:0 0 100%; min-width:0; }
   .pj-fig{ margin:0; width:100%; height:clamp(380px,66vh,640px); background:var(--surface-deep); overflow:hidden; }
+  @media (max-width:600px){ .pj-fig{ height:clamp(320px,54vh,460px); } }
   .pj-fig img{ width:100%; height:100%; object-fit:cover; display:block; object-position:center bottom; }
   .pj-arrows{ display:flex; align-items:center; gap:10px; }
   .pj-arrows button{ width:40px; height:40px; display:grid; place-items:center; border:1px solid var(--line-strong); border-radius:999px; background:none; color:var(--soft); cursor:pointer; transition:border-color .2s ease,color .2s ease; }
